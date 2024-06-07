@@ -14,6 +14,8 @@
 		150604272C11D75300C4A006 /* Care_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150604262C11D75300C4A006 /* Care_BuddyTests.swift */; };
 		150604312C11D75300C4A006 /* Care_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150604302C11D75300C4A006 /* Care_BuddyUITests.swift */; };
 		150604332C11D75300C4A006 /* Care_BuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150604322C11D75300C4A006 /* Care_BuddyUITestsLaunchTests.swift */; };
+		150606922C11F7D000C4A006 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150606912C11F7D000C4A006 /* LoginView.swift */; };
+		150606942C11F7F200C4A006 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150606932C11F7F200C4A006 /* ForgotPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1506042C2C11D75300C4A006 /* Care BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Care BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150604302C11D75300C4A006 /* Care_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Care_BuddyUITests.swift; sourceTree = "<group>"; };
 		150604322C11D75300C4A006 /* Care_BuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Care_BuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		150606912C11F7D000C4A006 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		150606932C11F7F200C4A006 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				150604152C11D75300C4A006 /* Care_BuddyApp.swift */,
 				150604172C11D75300C4A006 /* ContentView.swift */,
+				150606912C11F7D000C4A006 /* LoginView.swift */,
+				150606932C11F7F200C4A006 /* ForgotPasswordView.swift */,
 				150604192C11D75300C4A006 /* Assets.xcassets */,
 				1506041B2C11D75300C4A006 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150606922C11F7D000C4A006 /* LoginView.swift in Sources */,
 				150604182C11D75300C4A006 /* ContentView.swift in Sources */,
+				150606942C11F7F200C4A006 /* ForgotPasswordView.swift in Sources */,
 				150604162C11D75300C4A006 /* Care_BuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

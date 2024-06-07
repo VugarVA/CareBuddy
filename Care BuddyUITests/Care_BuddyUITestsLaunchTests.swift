@@ -1,10 +1,3 @@
-//
-//  Care_BuddyUITestsLaunchTests.swift
-//  Care BuddyUITests
-//
-//  Created by Vugar Amirov on 6/6/24.
-//
-
 import XCTest
 
 final class Care_BuddyUITestsLaunchTests: XCTestCase {

@@ -1,10 +1,3 @@
-//
-//  Care_BuddyTests.swift
-//  Care BuddyTests
-//
-//  Created by Vugar Amirov on 6/6/24.
-//
-
 import XCTest
 @testable import Care_Buddy
 
