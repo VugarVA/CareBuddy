@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		150604162C11D75300C4A006 /* Care_BuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150604152C11D75300C4A006 /* Care_BuddyApp.swift */; };
-		150604182C11D75300C4A006 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150604172C11D75300C4A006 /* ContentView.swift */; };
 		1506041A2C11D75300C4A006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150604192C11D75300C4A006 /* Assets.xcassets */; };
 		1506041D2C11D75300C4A006 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1506041C2C11D75300C4A006 /* Preview Assets.xcassets */; };
 		150604272C11D75300C4A006 /* Care_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150604262C11D75300C4A006 /* Care_BuddyTests.swift */; };
@@ -16,6 +15,8 @@
 		150604332C11D75300C4A006 /* Care_BuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150604322C11D75300C4A006 /* Care_BuddyUITestsLaunchTests.swift */; };
 		150606922C11F7D000C4A006 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150606912C11F7D000C4A006 /* LoginView.swift */; };
 		150606942C11F7F200C4A006 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150606932C11F7F200C4A006 /* ForgotPasswordView.swift */; };
+		150606962C18EB9F00C4A006 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150606952C18EB9F00C4A006 /* SignUpView.swift */; };
+		1506069A2C18F52200C4A006 /* TermsConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150606992C18F52200C4A006 /* TermsConditions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* Begin PBXFileReference section */
 		150604122C11D75300C4A006 /* Care Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Care Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150604152C11D75300C4A006 /* Care_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Care_BuddyApp.swift; sourceTree = "<group>"; };
-		150604172C11D75300C4A006 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		150604192C11D75300C4A006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1506041C2C11D75300C4A006 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		150604222C11D75300C4A006 /* Care BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Care BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +48,8 @@
 		150604322C11D75300C4A006 /* Care_BuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Care_BuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		150606912C11F7D000C4A006 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		150606932C11F7F200C4A006 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		150606952C18EB9F00C4A006 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		150606992C18F52200C4A006 /* TermsConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				150604152C11D75300C4A006 /* Care_BuddyApp.swift */,
-				150604172C11D75300C4A006 /* ContentView.swift */,
 				150606912C11F7D000C4A006 /* LoginView.swift */,
 				150606932C11F7F200C4A006 /* ForgotPasswordView.swift */,
+				150606952C18EB9F00C4A006 /* SignUpView.swift */,
+				150606992C18F52200C4A006 /* TermsConditions.swift */,
 				150604192C11D75300C4A006 /* Assets.xcassets */,
 				1506041B2C11D75300C4A006 /* Preview Content */,
 			);
@@ -264,9 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				150606922C11F7D000C4A006 /* LoginView.swift in Sources */,
-				150604182C11D75300C4A006 /* ContentView.swift in Sources */,
 				150606942C11F7F200C4A006 /* ForgotPasswordView.swift in Sources */,
 				150604162C11D75300C4A006 /* Care_BuddyApp.swift in Sources */,
+				1506069A2C18F52200C4A006 /* TermsConditions.swift in Sources */,
+				150606962C18EB9F00C4A006 /* SignUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +436,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Care Buddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Care-Buddy-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Care Buddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Care-Buddy-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
